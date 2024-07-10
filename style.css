@@ -55,25 +55,31 @@ body {
   margin-top: 53px;
   margin-bottom: -1px;
 }
-.hero-btn {
+.hero-bttn {
   /* border: 2px solid red; */
-}
-.hero-btn .btn {
   width: 244px;
   height: 65px;
+  background-color: rgb(13, 19, 33);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 8px;
+}
+.hero-bttn a {
+
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
   letter-spacing: 0%;
   color: white;
   text-align: center;
-  background-color: rgb(13, 19, 33);
+
+  background-size: cover;
   border-radius: 8px;
-}
-.hero-btn .btn a {
-  color: white;
   text-decoration: none;
 }
+
 /* -- Header-section finished. -- */
 
 /* -- Main section start -- */
@@ -282,4 +288,94 @@ iframe {
   background-size: cover;
   /* border: 2px solid green; */
   margin: 32px 32px 32px 32px;
+}
+#third-section {
+  /* border: 2px solid red; */
+  position: relative;
+  width: 1140px;
+  height: 460px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.third-heading h1 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.third-heading p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.card-div {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  width: 1140px;
+  height: 299px;
+}
+.card-div .card-first-bg {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  width: 364px;
+  height: 299px;
+  padding: 40px 40px 40px 40px;
+}
+.card img {
+  width: 56px;
+  height: 56px;
+  margin-bottom: 24px;
+}
+.card h1 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.card a {
+  font-size: 16px;
+  color: rgb(13, 19, 33);
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.card-div .card-second-bg {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  width: 364px;
+  height: 299px;
+  padding: 40px 40px 40px 40px;
+}
+.card-div .card-third-bg {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  width: 364px;
+  height: 299px;
+  padding: 40px 40px 40px 40px;
+}
+#forth-section {
+  border: 2px solid red;
+  position: relative;
+  width: 1140px;
+  height: 313px;
+  margin: 0 auto;
+  /* margin-bottom: 150px; */
 }
