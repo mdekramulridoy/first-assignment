@@ -67,7 +67,6 @@ body {
   border-radius: 8px;
 }
 .hero-bttn a {
-
   font-size: 20px;
   font-weight: 600;
   line-height: 23px;
@@ -372,10 +371,110 @@ iframe {
   padding: 40px 40px 40px 40px;
 }
 #forth-section {
-  border: 2px solid red;
   position: relative;
   width: 1140px;
   height: 313px;
   margin: 0 auto;
-  /* margin-bottom: 150px; */
+  border-radius: 16px;
+  background-image: url("assets/Handshake.png"),
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  margin-bottom: 80px;
+}
+
+.submit-div {
+  /* border: 2px solid red; */
+  width: 1044px;
+  height: 185px;
+  padding-top: 36px;
+  margin: 64px 48px 64px 48px;
+}
+.text-content {
+  width: 730px;
+  height: 104px;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 157px 24px 157px;
+  padding-top: 127px;
+}
+.text-content h1 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.text-content p {
+  color: white;
+  width: 606px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.text-button {
+  width: 684px;
+  height: 57px;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.input-text {
+  width: 548px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  padding-left: 20px;
+  /* text-align: center; */
+}
+.submit-button {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 120px;
+  height: 57px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+}
+#footer-section {
+  /* border: 2px solid red; */
+  width: 1440px;
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 32px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+.footer-div {
+  /* border: 2px solid red; */
+  width: 1140px;
+  height: 36px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.icon{
+  margin-left : 15px;
 }
